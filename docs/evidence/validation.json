@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-11-11T01:25:34.356526+00:00",
+  "source_commit": "8d79970f21947631f0140143ee2f4cd8bf2f4796",
+  "python": "3.12.14",
+  "packages": {
+    "pytest": "9.1.1",
+    "langchain-core": "1.6.4",
+    "langsmith": "0.13.0",
+    "pyyaml": "6.0.3"
+  },
+  "checks": {
+    "prompt_validation": true,
+    "only_bug_report_variable": true,
+    "system_user_roles": true,
+    "dataset_15_examples": true,
+    "dataset_required_fields": true,
+    "sdk_supports_public_pull": true,
+    "sdk_supports_public_push": true,
+    "base_unchanged:src/evaluate.py": true,
+    "base_unchanged:src/metrics.py": true,
+    "base_unchanged:src/utils.py": true,
+    "base_unchanged:datasets/bug_to_user_story.jsonl": true
+  },
+  "passed": true,
+  "scope": "Validação local sem chamadas externas. Não comprova publicação, tracing ou notas no LangSmith."
+}

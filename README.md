@@ -122,6 +122,17 @@ Os exemplos são de **domínios que não aparecem no dataset** de propósito: as
 
 ## Resultados Finais
 
+### Evidências de validação local
+
+Validação executada em 10/11/2026 (America/Sao_Paulo), sobre o commit `8d79970f21947631f0140143ee2f4cd8bf2f4796`: **10 testes passaram** e **11 verificações locais passaram**. Os arquivos protegidos e o dataset permanecem idênticos aos da base.
+
+- [Saída completa do pytest](docs/evidence/pytest.txt)
+- [Relatório JUnit](docs/evidence/pytest.xml)
+- [Validação do template, dataset e SDK](docs/evidence/validation.json)
+- [Escopo, reprodução e pendências](docs/evidence/README.md)
+
+Essas evidências verificam a implementação local. A publicação do prompt, as notas ≥ 0.8, as iterações e os traces no LangSmith **ainda precisam ser comprovados**. Os campos abaixo permanecem pendentes até uma execução real com credenciais.
+
 > Preencha esta seção depois de rodar `python src/evaluate.py` com suas credenciais.
 
 ### Link público do dataset de avaliação
@@ -194,7 +205,7 @@ Salve as imagens em `docs/screenshots/` e referencie aqui:
 ### 1. Clonar e instalar
 
 ```bash
-git clone https://github.com/Cris042/mba-ia-pull-evaluation-prompt.git
+git clone https://github.com/mclovin137/mba-ia-pull-evaluation-prompt.git
 cd mba-ia-pull-evaluation-prompt
 
 python3 -m venv venv

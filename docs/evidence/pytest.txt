@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0 -- /tmp/prompt-audit-venv/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/32cba3f1fde8/audit
+plugins: langsmith-0.13.0, anyio-4.16.0
+collecting ... collected 10 items
+
+tests/test_prompts.py::TestPrompts::test_prompt_has_system_prompt PASSED [ 10%]
+tests/test_prompts.py::TestPrompts::test_prompt_has_role_definition PASSED [ 20%]
+tests/test_prompts.py::TestPrompts::test_prompt_mentions_format PASSED   [ 30%]
+tests/test_prompts.py::TestPrompts::test_prompt_has_few_shot_examples PASSED [ 40%]
+tests/test_prompts.py::TestPrompts::test_prompt_no_todos PASSED          [ 50%]
+tests/test_prompts.py::TestPrompts::test_minimum_techniques PASSED       [ 60%]
+tests/test_prompts.py::TestPrompts::test_structure_is_valid PASSED       [ 70%]
+tests/test_prompts.py::TestPrompts::test_bug_report_only_in_user_prompt PASSED [ 80%]
+tests/test_prompts.py::TestPrompts::test_template_has_only_expected_variables PASSED [ 90%]
+tests/test_prompts.py::TestPrompts::test_prompt_handles_edge_cases PASSED [100%]
+
+- generated xml file: /workspace/scratch/32cba3f1fde8/audit/docs/evidence/pytest.xml -
+============================== 10 passed in 0.16s ==============================
